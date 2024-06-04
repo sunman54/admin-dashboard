@@ -5,7 +5,7 @@ import 'jsvectormap/dist/maps/world.js';  // Import the world map data
 
 const MapOneTR = () => {
   useEffect(() => {
-    const mapOne = new jsVectorMap({
+    const mapOneTR = new jsVectorMap({
       selector: '#mapOne',
       map: 'world',  // Update to use the world map
       zoomButtons: true,
@@ -45,7 +45,7 @@ const MapOneTR = () => {
       <h4 className="mb-2 text-xl font-semibold text-black dark:text-white">
         Region labels
       </h4>
-      <div id="mapOne" className="mapOne map-btn h-90"></div>
+      <div id="mapOneTR" className="mapOne map-btn h-90"></div>
     </div>
   );
 };
