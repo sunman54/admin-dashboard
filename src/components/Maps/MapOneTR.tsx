@@ -1,13 +1,13 @@
 import jsVectorMap from 'jsvectormap';
 import 'jsvectormap/dist/css/jsvectormap.css';
 import { useEffect } from 'react';
-import './tr_map.js';  // Import the Turkey map data
+import 'jsvectormap/dist/maps/turkey.js';  // Import the Turkey map data
 
 const MapOneTR = () => {
   useEffect(() => {
     const mapOneTR = new jsVectorMap({
       selector: '#mapOneTR',
-      map: 'turkey_1_mill_en',  // Update to use the Turkey map
+      map: 'turkey',  // Update to use the Turkey map
       zoomButtons: true,
 
       regionStyle: {
