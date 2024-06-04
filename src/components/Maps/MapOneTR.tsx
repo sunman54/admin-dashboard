@@ -6,7 +6,7 @@ import 'jsvectormap/dist/maps/world.js';  // Import the world map data
 const MapOneTR = () => {
   useEffect(() => {
     const mapOneTR = new jsVectorMap({
-      selector: '#mapOne',
+      selector: '#mapOneTR',
       map: 'world',  // Update to use the world map
       zoomButtons: true,
 
